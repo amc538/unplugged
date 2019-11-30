@@ -250,6 +250,10 @@ footer .copyright {
 /*-- Hero Image Section--*/
 
 .hero {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #333;
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -300,6 +304,10 @@ aside {
 /*---Features---*/
 
 .features {
+  background-image: url('../img/features.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -309,7 +317,7 @@ aside {
   margin-bottom: 60px;
 }
 
-.features articles {
+.features article {
   width: 55%;
   margin: 30px 0;
 }
