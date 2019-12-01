@@ -689,6 +689,10 @@ aside {
     width: 40%;
   }
 
+  .map figure {
+    padding-bottom: 45%;
+  }
+
   .content-section .content-wrapper h2 {
     width: 80%;
   }
@@ -785,6 +789,10 @@ aside {
   }
 
   /* -------------D-ABOUT PAGE ---------------- */
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
