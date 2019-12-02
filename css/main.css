@@ -114,6 +114,8 @@ textarea {
 
    ul, ol {
       list-style-type: none;
+      margin: 0;
+      padding; 0;
    }
 
    a {
@@ -145,7 +147,7 @@ textarea {
    }
 
    p {
-    font-size: .75em;
+    font-size: .875em;
     line-height: 1.285;
    }
 
@@ -288,7 +290,6 @@ footer .copyright {
 
 .hero h1 {
   font-size: 2.25em;
-  font-weight: 500;
 }
 
 /*--- Aside ---*/
@@ -338,7 +339,6 @@ aside {
 .features {
   background-image: url('../img/features.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -650,12 +650,16 @@ aside {
 
   .reviews article {
     display: flex;
-    justify-content: space-between:
+    justify-content: space-between;
+  }
+
+  .reviews h2 {
+    width: 90%;
   }
 
   .reviews article figure,
   .reviews article div {
-    width: 50%
+    width: 50%;
   }
 
   .review h3 {
@@ -670,7 +674,7 @@ aside {
     margin: 100px 0;
   }
 
-  footer .content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
