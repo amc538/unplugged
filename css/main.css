@@ -257,6 +257,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icoms p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -634,6 +642,10 @@ aside {
     width: 50%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
     /* -- T - Reviews -- */
 
   .reviews article {
@@ -654,7 +666,7 @@ aside {
     /* -- T - Footer -- */
 
   footer .content-wrapper {
-    width: 65%
+    width: 65%;
     margin: 100px 0;
   }
 
@@ -676,6 +688,11 @@ aside {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -728,7 +745,7 @@ aside {
 
   .faq h4,
   .faq p {
-    font-size: 875em;
+    font-size: .875em;
     line-height: 1.125;
   }
 
@@ -793,6 +810,7 @@ aside {
     width: 40%;
   }
 
+
   /* -------------D-ABOUT PAGE ---------------- */
 
   .map figure {
@@ -817,6 +835,7 @@ aside {
 
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq-content {
